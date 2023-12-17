@@ -5,7 +5,8 @@ import jakarta.annotation.PreDestroy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component(value = "benzVehicle")
+@Component()
+@Primary
 public class BenzVehicle implements Vehicle {
     private String name;
 
