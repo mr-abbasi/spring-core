@@ -1,4 +1,4 @@
-package com.abbasi.model;
+package com.abbasi.springComponent.model;
 
 public interface Vehicle {
     String getName();

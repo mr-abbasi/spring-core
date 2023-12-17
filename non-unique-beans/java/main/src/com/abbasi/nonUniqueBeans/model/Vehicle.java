@@ -1,4 +1,4 @@
-package com.abbasi.model;
+package com.abbasi.nonUniqueBeans.model;
 
 public class Vehicle {
     private String name;

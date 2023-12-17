@@ -1,6 +1,6 @@
-package com.abbasi;
+package com.abbasi.springWithoutBean;
 
-import com.abbasi.model.Vehicle;
+import com.abbasi.springWithoutBean.model.Vehicle;
 
 public class Main {
     public static void main(String[] args) {

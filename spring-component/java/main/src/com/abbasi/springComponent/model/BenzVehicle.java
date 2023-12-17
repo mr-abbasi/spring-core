@@ -1,16 +1,18 @@
-package com.abbasi.model;
+package com.abbasi.springComponent.model;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component(value = "audiVehicle")
-public class AudiVehicle implements Vehicle {
+@Component()
+@Primary
+public class BenzVehicle implements Vehicle {
     private String name;
 
     @PostConstruct
     public void setUp(){
-        this.setName("Audi");
+        this.setName("Benz");
     }
 
     public String getName() {
@@ -22,11 +24,11 @@ public class AudiVehicle implements Vehicle {
     }
 
     public void printHello(){
-        System.out.println("Hello from Audi");
+        System.out.println("Hello from Benz");
     }
 
     @PreDestroy
     public void destroy(){
-        System.out.println("Audi is destroyed");
+        System.out.println("Benz is destroyed");
     }
 }

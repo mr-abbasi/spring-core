@@ -1,6 +1,6 @@
-package com.abbasi.config;
+package com.abbasi.springBeans.config;
 
-import com.abbasi.model.Vehicle;
+import com.abbasi.springBeans.model.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

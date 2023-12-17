@@ -1,6 +1,6 @@
-package com.abbasi.model;
+package com.abbasi.beanRegister.model;
 
-public class Vehicle {
+public class BenzVehicle implements Vehicle{
     private String name;
 
     public String getName() {

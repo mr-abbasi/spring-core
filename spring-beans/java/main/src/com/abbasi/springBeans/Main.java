@@ -1,7 +1,7 @@
-package com.abbasi;
+package com.abbasi.springBeans;
 
-import com.abbasi.config.ProjectConfig;
-import com.abbasi.model.Vehicle;
+import com.abbasi.springBeans.config.ProjectConfig;
+import com.abbasi.springBeans.model.Vehicle;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

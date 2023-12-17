@@ -1,6 +1,6 @@
-package com.abbasi.config;
+package com.abbasi.nonUniqueBeans.config;
 
-import com.abbasi.model.Vehicle;
+import com.abbasi.nonUniqueBeans.model.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

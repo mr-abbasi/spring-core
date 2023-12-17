@@ -1,4 +1,4 @@
-package com.abbasi.model;
+package com.abbasi.springWithoutBean.model;
 
 public class Vehicle {
     private String name;
