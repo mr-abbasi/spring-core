@@ -11,5 +11,6 @@ public class Main {
         var vehicle = context.getBean(Vehicle.class);
         System.out.println("Vehicle bean is created with Component Stereotype: "+vehicle.getName());
         vehicle.printHello();
+        context.close();
     }
 }
