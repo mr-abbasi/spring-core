@@ -27,7 +27,9 @@ public class Main {
         System.out.println("Benz vehicle is: "+ benzVehicle.getName());
         System.out.println("Ferrari vehicle is: "+ ferrariVehicle.getName());
 
-
+        //get bean from the name with primary annotation
+        var audiVehicle1 = context.getBean(Vehicle.class);
+        System.out.println("Audi vehicle from primary annotation is: "+ audiVehicle1.getName());
 
     }
 }
