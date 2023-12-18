@@ -1,9 +1,9 @@
-package wiringMethodCall;
+package wiringWithMethodParams;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import wiringMethodCall.config.ProjectConfig;
-import wiringMethodCall.model.Person;
-import wiringMethodCall.model.Vehicle;
+import wiringWithMethodParams.config.ProjectConfig;
+import wiringWithMethodParams.model.Person;
+import wiringWithMethodParams.model.Vehicle;
 
 public class Main {
     public static void main(String[] args) {

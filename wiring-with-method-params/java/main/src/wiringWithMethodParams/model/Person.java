@@ -1,4 +1,4 @@
-package wiringMethodCall.model;
+package wiringWithMethodParams.model;
 
 public class Person {
     private String name;
