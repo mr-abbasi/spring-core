@@ -1,7 +1,6 @@
 package com.abbasi.autowireMultiBeansWithSameType.model;
 
 import jakarta.annotation.PostConstruct;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component("benzVehicle")
