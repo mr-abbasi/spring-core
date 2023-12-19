@@ -22,6 +22,7 @@ public class BenzVehicle  implements Vehicle{
 
     @PostConstruct
     public void setUp(){
+        setName("Benz");
         System.out.println("Benz is created");
     }
 }
